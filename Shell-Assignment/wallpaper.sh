@@ -12,7 +12,7 @@ print_usage() {
     echo "    -t to save the image in /tmp."
     echo "    -o to specify the output filename."
     echo "    -r to set a custom resolution for the image."
-    echo "Example: $0 -p ~/Desktop -o my-wallpaper -r 1300x720"
+    echo "Example: $0 -p ~/Desktop -o my-wallpaper -r 1300/720"
     exit 1
 }
 
