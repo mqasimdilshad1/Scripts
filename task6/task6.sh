@@ -18,13 +18,13 @@ if [ "$border_char" != "" ]; then
   
   border=""
   for ((i=0; i<string_length+4; i++)); do
-      border="${border}${border_char}"
+      border="$border $border_char"
   done
 
 
   echo "$border"
 
-  echo "${border_char} $string_to_print ${border_char}"
+  echo "$border_char $string_to_print $border_char"
 
   echo "$border"
 else
