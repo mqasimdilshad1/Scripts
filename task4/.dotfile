@@ -1,0 +1,5 @@
+# Setting a custom PS1 prompt
+PS1='[\\t:] ~ > '
+
+
+
